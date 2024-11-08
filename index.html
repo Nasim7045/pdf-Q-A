@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Reader</title>
+    <script src="static/app.js" defer></script>  <!-- Link to app.js -->
+</head>
+<body>
+    <h1>Upload a PDF File</h1>
+    <form id="pdf-form" enctype="multipart/form-data">
+        <input type="file" name="pdf-file" id="pdf-file" required>
+        <button type="submit">Upload PDF</button>
+    </form>
+
+    <h2>Extracted Text</h2>
+    <pre id="pdf-text"></pre>
+</body>
+</html>
